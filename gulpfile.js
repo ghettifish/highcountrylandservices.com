@@ -62,7 +62,7 @@ gulp.task("html", ["javascript", "css", "fonts", "images"], function() {
       )
     )
 	.pipe(replace("js/webflow.js", "/js/webflow-min.js"))
-	.pipe(replace('class="w-form"', ''))
+	// .pipe(replace('class="w-form"', ''))
 	.pipe(replace('2017',  d.getFullYear()))
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest("dist"));
