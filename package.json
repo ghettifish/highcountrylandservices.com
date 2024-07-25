@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.8.2",
     "@astrojs/cloudflare": "^11.0.1",
     "@astrojs/netlify": "^5.4.0",
+    "@cloudflare/pages-plugin-static-forms": "^1.0.3",
     "astro": "^4.12.2",
     "typescript": "^5.5.4"
   }
